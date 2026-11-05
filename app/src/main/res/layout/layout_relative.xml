@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Ô nằm ở phía dưới, chính giữa parent -->
+    <TextView
+        android:id="@+id/txtX"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="X"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <!-- Ô nằm phía trên X và căn giữa -->
+    <TextView
+        android:id="@+id/txtTop"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_above="@id/txtX"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="TOP"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+</RelativeLayout>
